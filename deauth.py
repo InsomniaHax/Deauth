@@ -12,7 +12,6 @@ while True:
 
 arp_result = arping(ip_add_range_entered)
 
-print("/n")
 interfaces = get_if_list()
 print(interfaces)
 interface = input("Enter the interface you want to send ARP packets from: ")
